@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: sans-serif;
+    background: url('../images/gradina.jpg');
+    background-attachment: fixed;
+  }
+  
+  button {
+    margin-bottom:10%;
+  }
+  
+  nav {
+    height: 15vh;
+    width: 100%;
+    background: #2c3039;  
+  }
+  
+  .menu {
+    display: none;
+  }
+  
+  .logo {
+    width: 7%;
+    background: none;
+    margin-bottom: -5%;
+  }
+  #reglog {
+    margin-top: 5%;
+  }
+  #nav-links {
+    margin-top: 4vh;
+  }
+  .search {
+    margin-left: 25%;
+    margin-top: 2%;
+  }
+  
+  #idk {
+    list-style: none;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background: none;
+  }
+  
+  .fa-search {
+    margin-left: 15%;
+  }
+  
+  #nav-links {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background: none;
+    
+  }
+  
+  #btn {
+    color: white;
+    background: none;
+    margin-left: -16.3%;
+  }
+  
+  #nav-links li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .reg {
+    text-decoration: none;
+    color: white;
+    background: none;
+    margin-left: 75%;
+    padding: 2%;  
+  }
+  
+  i.fa.fa-fw.fa-user{
+    background: none;
+  }
+  
+  i.fa.fa-sign-in{
+    background: none;
+  }
+  .log{
+    text-decoration: none;
+    color: white;
+    background: none;
+  }
+  .search{
+    height: 25%;
+    width: 20%;  
+    border-radius: 40px 40px 40px 40px;
+    background: #2c3039; 
+    border-radius: 5%;
+    color: white;
+  }
+  
+  
+  #btn.fa.fa-search{
+    background: none;
+    margin-left: -25%;
+  }
+  #bajra {
+    margin-top: 10%;
+  }
+  
+  .tekst{
+      position:absolute;
+      top:70%;
+      left:50%;
+      transform: translate(-50%,-50%);
+      text-align:center;
+      background: none;
+  }
+  .tekst h1{
+      color:#fff;
+      font-size:80px;
+      font-weight:600;
+      margin-bottom:100px;
+      background: none;
+  }
+  .tekst p{
+      color:#fff;
+      font-size:29px;
+      font-weight:lighter;
+      background: none;
+  }
+  .tekst button{
+      color:#fff;
+      background:#009f8b;
+      padding:35px;
+      padding-right:10px;
+      padding-left:10px;
+      border:none;
+      font-size:20px;
+      margin-top:30px;
+      width: 50%;
+      
+  }
+  .tekst button:hover{
+      background-color:#32b2a2;
+      
+  }
+  i.fa.fa-search{
+    background: none;
+  }
+
+  
+  @media screen and (max-width: 768px) {
+    body {
+      background-position-x: 40%;
+
+    }
+    
+    .logo {
+      width: 28%;
+      background: none;
+      margin-bottom: -10%;
+    }
+    .bajra {
+      margin-top: 5%;
+    }
+    .menu {
+      display: block;
+      margin-left: 85%;
+      font-size: 5vw;
+      text-decoration: none;
+      background:none;
+      color: white;
+      margin-bottom: -15%;
+    }
+  
+    .line {
+      width: 30px;
+      height: 3px;
+      background: white;
+      margin: 5px;
+    }
+  
+    nav {
+      position: relative; 
+      height: 10vh; 
+    }
+
+    .fa.fa-bars {
+      font-size: 9vw;
+      margin-top: -60%;
+    }
+    .search{
+      margin-bottom: -50%;
+      margin-left: 27%;
+      height: 3.5vh;
+      width: auto;
+      color: white;
+    }
+    
+    .registrujse .bajra {
+      margin-bottom: 5%;
+  
+    }
+
+    .hidden {
+      text-align: center;
+      margin-left: -7%;
+    }
+
+    .tekst {
+      font-weight: bold;
+    }
+  
+    #btn .fa .fa-search{
+      margin-right: -65%;
+    }
+    #idk {
+      background:none;
+      display:none;
+  
+    }
+    .nav-links {
+      background:none;
+      height: 100vh;
+      width: 100%;
+      margin-top: 30%;
+      flex-direction: column;
+      clip-path: circle(100px at 90% -10%);
+      -webkit-clip-path: circle(100px at 90% -10%);
+      transition: all 1s ease-out;
+      pointer-events: none;
+    }
+  
+    .search {
+      margin-top: 20%;
+      margin-bottom: 20%;
+    }
+  
+    .reg {
+      margin-left: 30%;
+      padding:8%;
+    }
+  
+    .log {
+      margin-left: 39%;
+    }
+  
+    .registrujsebajra{
+      margin-top:50% ;
+    }
+    .nav-links.open {
+      clip-path: circle(1000px at 90% -10%);
+      -webkit-clip-path: circle(1000px at 90% -10%);
+      pointer-events: all;
+    }
+    .tekst h1{
+      font-size: 60px;
+    }
+    .landing {
+      flex-direction: column;
+    }
+    .nav-links li {
+      opacity: 0;
+    }
+    .nav-links li a {
+      font-size: 25px;
+    }
+    .nav-links li:nth-child(1) {
+      transition: all 0.5s ease 0.2s;
+      
+    }
+    .nav-links li:nth-child(2) {
+      transition: all 0.5s ease 0.4s;
+    }
+    .nav-links li:nth-child(3) {
+      transition: all 0.5s ease 0.6s;
+    }
+    li.fade {
+      opacity: 1;
+      
+    }
+  }
+  

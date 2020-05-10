@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1.25vw;
+}
+
+body {
+    background: #ecf1f4;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../images/gradina.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+label {
+    color:#fff;
+}
+.form-wrap {
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    background: #3e3d3d;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    border-radius: 1vw;
+    margin-bottom: 15%;
+}
+
+.form-wrap textarea {
+    width: 60%;
+}
+
+.usergender {
+    width: 15%;
+}
+#policy {
+    color: white;
+}
+a {
+    color: white;
+}
+.form-wrap label {
+    text-align: center; 
+}
+.radio  {
+    margin-left: 40%;
+    margin-right: 40%;
+    width: 20%;
+    align-self: center;
+}
+.form-wrap input {
+    width: 80%;
+}
+
+.form-wrap h1 {
+    text-align: center;
+    color: #fff;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 7%;
+}
+
+#submit {
+    width: 25%;
+}
+
+input {
+    width: 100%;
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #fff;
+}
+
+input[type="button"] {
+    background: #bac675;
+    border: 0;
+    cursor: pointer;
+    color: #3e3d3d;
+}
+
+input[type="button"]:hover {
+    background: #a4b15c;
+    transition: .6s;
+}
+
+::placeholder {
+    color: #fff;
+}
+
+.thin-head {
+    color: #fff;
+    width: 100%;
+}
+
+.thin-head p {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 1% 1% 1% 1%;
+}
+
+.registrujse{
+    text-align: center;
+    text-decoration: none;
+    padding: 7px;
+    text-emphasis-color: black;
+}
+
+.reg{
+    text-decoration: none;
+}
+input[type='checkbox'] {
+    width: 2%;
+}
+.password{
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+input [type='submit'] {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.pass{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        width: 20%;
+    }
+    .radio {
+        width: 80%;
+        margin-left: 10%;
+    }
+}

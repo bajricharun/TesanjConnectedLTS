@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+}
+h6{
+    font-family: sans-serif;
+    font-size: 5vh;
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+.div1{
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    border: solid 2px white;
+    border-radius: 2vw;
+    padding: 2%;
+    width: 80%;
+
+    margin-left:10%;
+    margin-right: 10%;
+}
+.div2{
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    border: solid 2px white;
+    border-radius: 2vw;
+    padding: 2%;
+    width: 80%;
+    margin-left:10%;
+    margin-right: 10%;
+}
+.hide {
+    max-height: 0 !important;
+}
+
+.dropdown{
+	border: 0.1em solid black;
+	width: 10em;
+	margin-bottom: 1em;
+}
+
+.dropdown .title{
+	margin: .3em .3em .3em .3em;	
+	width: 100%;
+}
+
+.dropdown .title .fa-angle-right{
+	float: right;
+	margin-right: .7em;
+	transition: transform .3s;
+}
+
+.dropdown .menu{
+	transition: max-height .5s ease-out;
+	max-height: 20em;
+	overflow: hidden;
+}
+
+.dropdown .menu .option{
+	margin: .3em .3em .3em .3em;
+	margin-top: 0.3em;
+}
+
+.dropdown .menu .option:hover{
+	background: rgba(0,0,0,0.2);
+}
+
+.pointerCursor:hover{
+	cursor: pointer;
+}
+
+.rotate-90{
+	transform: rotate(90deg);
+}
